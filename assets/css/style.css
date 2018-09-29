@@ -30,6 +30,16 @@ header {
     background: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #777777;
+    text-decoration: none;
 }
 
 .picture {
@@ -54,4 +64,5 @@ footer {
     left: 0;
     padding: 1rem;
     height: 20px;
+    color: #777777;
 }
