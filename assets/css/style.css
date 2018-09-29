@@ -2,6 +2,17 @@ body {
     width: 960px;
     background-color: #ffffff;
     border-color: #ffffff;
+    align-content: ;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("light-grey-terrazzo.png");
+}
+
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
 }
 
 h1 {
@@ -15,9 +26,11 @@ h1 {
 
 .nav {
     text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #avatar {
     float: left;
     width: 200px;
+    padding: 10px
 }
