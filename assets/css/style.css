@@ -3,16 +3,17 @@ body {
     background-color: #ffffff;
     border-color: #ffffff;
     align-content: ;
-    margin: 0;
     padding: 0;
     color: #333333;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("light-grey-terrazzo.png");
+    margin: auto;
 }
 
 header {
     background-color: #ffffff;
     border-color: #cccccc;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -33,4 +34,8 @@ h1 {
     float: left;
     width: 200px;
     padding: 10px
+}
+
+.center {
+    text-align: center;
 }
