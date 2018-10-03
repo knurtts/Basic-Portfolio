@@ -99,19 +99,19 @@ a:visited {
     padding-top: 15px;
 }
 
-.push, footer {
+/*.push, footer {
     height: 33px;
     border-top: 8px solid #4aaaa5;
     color: #ffffff;
-    position: absolute;
+    position: sticky;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
     background: #777777;
-}
+}*/
 
-/*footer {
+footer {
     background: #777777;
     width: 100%;
     text-align: center;
@@ -122,4 +122,4 @@ a:visited {
     height: 33px;
     color: #ffffff;
     border-top: 8px solid #4aaaa5;
-}*/
+}
