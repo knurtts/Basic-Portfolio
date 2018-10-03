@@ -61,9 +61,10 @@ a:visited {
 }
 
 .picture {
-    width: 200px;
+    width: 210px;
     float: left;
     padding: 10px;
+
 }
 
 p {
