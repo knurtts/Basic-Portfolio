@@ -73,10 +73,35 @@ p {
 
 input {
     width: 940px;
+    padding: 12px;
+    border: 1px solid #777777;
+    border-radius: 4px;
 }
 
-.message {
-    height: 400px;
+textarea {
+    width: 940px;
+    height: 200px;
+    padding: 12px;   
+    border: 1px solid #777777;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.send {
+    width: auto;
+    border: none;
+    border-radius: 4px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 12px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.send:hover {
+    background-color: #53cab6;
 }
 
 footer {
@@ -90,4 +115,20 @@ footer {
     height: 33px;
     color: #ffffff;
     border-top: 8px solid #4aaaa5;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffffff; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #777777; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #686767; 
 }
