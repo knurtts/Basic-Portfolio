@@ -28,7 +28,7 @@ header {
     padding-top: 15px;
 }
 
-.nav {
+#nav {
     position: relative;
     left: 1050px;
     bottom: 50px;
@@ -37,6 +37,10 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     text-decoration: none;
+}
+
+.nav {
+    margin: 5px;
 }
 
 a {
@@ -73,13 +77,21 @@ a:visited {
 
 }
 
+.about {
+    color: #777777;
+}
+
 p {
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.bio {
+    color: #777777;
+}
+
 footer {
-    background: #777777;
+    background: #666666;
     width: 100%;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -100,9 +112,9 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #777777; 
+    background: #666666; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #686767; 
+    background: #585858; 
 }
